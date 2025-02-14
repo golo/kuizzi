@@ -5,14 +5,13 @@ import { getStorage, connectStorageEmulator } from 'firebase/storage'
 import { ref, getDownloadURL } from 'firebase/storage'
 
 const app = initializeApp({
-  apiKey: 'AIzaSyC2zSi5L3hsAudpae05vWNMm2ggv8Z8cuY',
-  authDomain: 'kuizzi.app',
-  databaseURL: 'https://kuizzi.firebaseio.com',
-  projectId: 'kuizzi',
-  storageBucket: 'kuizzi.appspot.com',
-  messagingSenderId: '387785143932',
-  appId: '1:387785143932:web:c07941800a49891c3a7bf9',
-  measurementId: 'G-FKDG7M6PG8',
+  apiKey: 'AIzaSyAvHh8CwRxbL-EheIO192-9KOEtP23LU7o',
+  authDomain: 'cuiss-a87d9.firebaseapp.com',
+  databaseURL: 'https://cuiss-a87d9.firebaseio.com',
+  projectId: 'cuiss-a87d9',
+  storageBucket: 'cuiss-a87d9.firebasestorage.app',
+  messagingSenderId: '294095364564',
+  appId: '1:294095364564:web:7028621d492aef0e093641'
 })
 
 export const auth = getAuth(app)
