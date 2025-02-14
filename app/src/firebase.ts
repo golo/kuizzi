@@ -6,12 +6,12 @@ import { ref, getDownloadURL } from 'firebase/storage'
 
 const app = initializeApp({
   apiKey: 'AIzaSyAvHh8CwRxbL-EheIO192-9KOEtP23LU7o',
-  authDomain: 'cuiss-a87d9.firebaseapp.com',
-  databaseURL: 'https://cuiss-a87d9.firebaseio.com',
+  authDomain: '',
+  databaseURL: '',
   projectId: 'cuiss-a87d9',
-  storageBucket: 'cuiss-a87d9.firebasestorage.app',
-  messagingSenderId: '294095364564',
-  appId: '1:294095364564:web:7028621d492aef0e093641'
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: ''
 })
 
 export const auth = getAuth(app)
